@@ -14,11 +14,11 @@ for (let i = 0; i < 5; i += 1) {
     const currentBand = bands[i] + "<br>";
 
     // Update the innerHTML value of the DOM element for bands
-    currentBand += bandElement.innerHTML;
+    bandElement.innerHTML += currentBand;
 
     // Get a reference to the current item in the vegetables array
     const currentVeggie = vegetables[i] + "<br>";
 
     // Update the innerHTML value of the DOM element for vegetables
-    currentVeggie += veggieElement.innerHTML;
+    veggieElement.innerHTML += currentVeggie;
 }
